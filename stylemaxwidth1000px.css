@@ -1,0 +1,80 @@
+@media(max-width: 1000px) {
+    .hidemobile {
+        display: none;
+    }
+    .fimg {
+        width: 75px;
+        height: 75px;
+    }
+    .menu {
+        padding-right: 50px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .title {
+        text-align: center;
+        font-size: 2.5cm;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+    .pickmanual {
+        width: 97vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 1300px;
+        justify-content: space-around;
+    }
+    .order {
+        margin-bottom: 40px;
+    }
+    .pickitem {
+        height: 370px;
+        font-size: xx-large;
+    }
+    .pickitem img {
+        width: 230px;
+        height: 230px;
+    }
+    .phone {
+        width: 363px;
+        height: 50px;
+        font-size: x-large;
+    }
+    .phimg {
+        width: 30px;
+        height: 30px;
+    }
+    .subtitle {
+        font-size: xx-large;
+        padding-bottom: 300px;
+    }
+    th {
+        font-size: xxx-large;
+        
+    }
+    td {
+        font-size: x-large;
+    }
+
+    .ramen {
+        width: 94vw;
+    }
+
+    
+    .ramen img {
+        width: 330px;
+        height: 330px;
+    }
+    .street {
+        font-size: x-large;
+    }
+    .sakuralogo {
+        padding-left: 10px;
+        width: 400px;
+        height: auto
+    }
+    #misoramen {
+        flex-flow: row-reverse;
+    }
+}

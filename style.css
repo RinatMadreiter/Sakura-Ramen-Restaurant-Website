@@ -1,0 +1,266 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    height: 100vh;
+    background-image: url('./img/bgr1.jpg');
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cookies {
+    font-family: 'Raleway', sans-serif;
+}
+
+.topbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.amenu {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.phone:hover {
+    background-color: rgb(119, 17, 17);
+}
+
+.phone a:hover {
+    text-decoration: none;
+}
+
+.fimg {
+    padding: 35px 60px;
+    width: 60px;
+    height: 60px;
+}
+
+.phimg {
+    width: 20px;
+    height: 20px;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3cm;
+    font-weight: 600;
+    margin-top: 180px;
+}
+
+.subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    font-weight: normal;
+    padding-bottom: 250px;
+}
+
+.phone {
+    width: 150px;
+    display: flex;
+    background-color: rgb(150, 18, 18);
+    padding: 5px 5px 5px 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border: rgb(209, 207, 207);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
+}
+
+body {
+    margin: 0px;
+}
+
+.order {
+    font-family: 'Economica-bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pickmanual {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pickitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 63px;
+    margin-right: 85px;
+    margin-left: 85px;
+}
+
+.title2 {
+    font-size: 1.6cm;
+    color: rgb(150, 18, 18);
+    margin-top: 60px;
+}
+
+.ourmenu {
+    background-image: url('./img/background.jpg');
+    background-position: initial;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 1800px;
+}
+
+.ramen {
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    padding: 0 20px 200px 20px;
+    border-spacing: 5px;
+}
+
+th {
+    text-align: left;
+    font-family: 'Economica-bold', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    padding-top: 50px;
+}
+
+td {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    font-weight: 800;
+    color: rgb(117, 104, 104);
+}
+
+.title3 {
+    font-family: 'Economica-bold', sans-serif;
+    color: rgb(150, 18, 18);
+    font-size: 1.6cm;
+    margin-top: 10px;
+}
+
+.findus {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title4 {
+    color: rgb(150, 18, 18);
+    font-variant: bold;
+    font-size: 1.6cm;
+    margin-bottom: 4px;
+}
+
+.street {
+    letter-spacing: 3px;
+    font-size: larger;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 27%;
+    position: relative;
+    height: 300px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.footerb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sakuralogo {
+    padding-left: 50px;
+    width: 352px;
+    height: 54px;
+}
+
+.f1 {
+    padding-right: 20px;
+    margin-top: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.attribution {
+    font-family: 'Raleway', sans-serif;
+    font-size: smaller;
+    justify-content: space-around;
+}
+
+.ramen img {
+    width: "450";
+    height: "450";
+}
+
+.tableramen {
+    width: 410px;
+}
+
+.media {
+    width: 68px;
+    height: 68px;
+}
+
+th {
+    column-span: 2;
+}

@@ -1,0 +1,63 @@
+@media(max-width: 550px) {
+    .phone {
+        max-width: 100%;
+    }
+    .title2 {
+        font-size: 0.9cm;
+    }
+    .title3 {
+        font-size: 0.9cm;
+    }
+    .title4 {
+        font-size: 0.9cm;
+        margin-top: 35px;
+    }
+    
+    .menu {
+        max-width: 100%;
+        padding-right: 0;
+    }
+    .topbar {
+        padding: 0 20px;
+    }
+    .fimg {
+        padding: 0 0 0 0;
+    }
+    .tableramen {
+        max-width: 100%;
+        padding-bottom: 0px;
+    }
+    .ramen {
+        padding: 0 0 0 0;
+    }
+    .f1 {
+        max-width: 100%;
+        padding: 0 5px;
+    }
+    .media {
+        width: 38px;
+        height: 38px;
+    }
+    .sakuralogo {
+        padding-left: 5px;
+        width: 140px;
+        height: auto;
+    }
+    .pickmanual {
+        max-width: 100%;
+    }
+    .pickitem{
+        font-size: larger;
+    }
+
+    .subtitle {
+        font-size: larger;
+    }
+    .ourmenu{
+        height: 1500px;
+    }
+    .street {
+        font-size: medium;
+        letter-spacing: 0;
+    }
+}
